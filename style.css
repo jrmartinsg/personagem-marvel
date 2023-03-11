@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url(./fonte/FjallaOne-Regular.ttf);
+}
+
+body {
+    font-family: 'Fjalla One', Arial, Helvetica;
+    font-size: 20px;
+    background-color: #E63A2F;
+    padding: 10px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    width: 20%;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.651);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+section {
+    font-family: Arial, 'Fjalla One', Helvetica;
+    background-color: #FCED26;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.651);
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+
+#verificar {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#verificar:hover {
+    background-color: #E63A2F;
+    color: white;
+}
+
+#personagem {
+    font-family: 'Fjalla One', Arial, Helvetica;
+    color: #E63A2F;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+@media screen and (max-width:1050px){
+    #logo {
+        width: 15rem;
+        margin-top: .1rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:600px){
+    h1 {
+        font-size: 2.2rem;
+    }
+    section {
+        max-width: 25rem;
+    }
+}
+@media screen and (max-width:500px){
+    h1 {
+        font-size: 1.5rem;
+    }
+    section {
+        max-width: 17rem;
+    }
+    section div {
+        font-size: 1.1rem;
+    }
+    p input{
+        max-width: 5rem;
+    }
+}
+@media screen and (max-width:350px){
+    h1 {
+        font-size: 1.3rem;
+    }
+    section {
+        max-width: 14rem;
+    }
+    section div {
+        font-size: .9rem;
+    }
+    img{
+        max-width: 12rem;
+    }
+}
